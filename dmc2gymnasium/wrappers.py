@@ -1,5 +1,5 @@
 from gymnasium import core, spaces
-from dm_control import suite
+from dm_control import suite, manipulation
 from dm_env import specs
 import numpy as np
 import os
@@ -57,12 +57,18 @@ class DMCWrapper(core.Env):
         os.environ["MUJOCO_GL"] = rendering
 
         # Create Task
-        self._env = suite.load(
-            domain_name=domain_name,
-            task_name=task_name,
-            task_kwargs=task_kwargs,
-            environment_kwargs=environment_kwargs
-        )
+        if domain_name == "manipulation":
+            self._env = manipulation.load(
+                environment_name=task_name,
+                seed=task_kwargs.get("random", 42),
+            )
+        else:
+            self._env = suite.load(
+                domain_name=domain_name,
+                task_name=task_name,
+                task_kwargs=task_kwargs,
+                environment_kwargs=environment_kwargs
+            )
 
         # Gymnasium Rendering
         self.render_mode = "rgb_array"
