@@ -38,7 +38,7 @@ If you'd like to test this out, simply run the following:
 python test.py
 ```
 
-## Notes:
+## Notes
 
 I've mostly designed this for my own experiments, but feel free to use this if it applies to your work!
 
