@@ -22,5 +22,5 @@ setup(
     author_email="jonathan.zamora@usc.edu",  # Optional
     keywords="dm_control, gymnasium, gym",  # Optional
     packages=find_packages(),  # Required
-    install_requires=["gymnasium", "dm_control", "mujoco"],  # Optional
+    install_requires=["gymnasium", "dm_control", "mujoco", "moviepy"],  # Optional
 )

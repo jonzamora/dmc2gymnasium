@@ -4,7 +4,17 @@ This is a lightweight wrapper around the DeepMind Control Suite that provides th
 
 Farama Gymnasium is the continuation of OpenAI Gym, and this repository will provide users with a simple, up-to-date, and easy-to-install package for their DM Control Suite experiments.
 
+## Installation
+
+```bash
+git clone https://github.com/jonzamora/dmc2gymnasium
+cd dmc2gymnasium
+pip install -e .
+```
+
 ## Usage
+
+A complete usage of the DMCWrapper is as follows:
 
 ```python
 from dmc2gymnasium import DMCWrapper
@@ -20,6 +30,12 @@ for step in range(1000):
         observation, info = env.reset(seed=42)
 
 env.close()
+```
+
+If you'd like to test this out, simply run the following:
+
+```bash
+python test.py
 ```
 
 ## References
