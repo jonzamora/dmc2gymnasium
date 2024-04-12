@@ -40,7 +40,7 @@ python test.py
 
 Output will look like this in the `video` directory:
 
-
+https://github.com/jonzamora/dmc2gymnasium/assets/50164418/7a6dead7-6b09-4ef4-8a5d-71bb0190ccbe
 
 ## Notes
 
