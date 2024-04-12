@@ -4,6 +4,8 @@ This is a lightweight wrapper around the **DeepMind Control Suite** and **DeepMi
 
 Farama Gymnasium is the continuation of OpenAI Gym, and this repository will provide users with a simple, up-to-date, and easy-to-install package for their DM Control Suite experiments.
 
+For a complete list of tasks, see the `dm_control` paper [here](https://arxiv.org/abs/2006.12983) and check out Part II of the Paper.
+
 ## Installation
 
 ```bash
