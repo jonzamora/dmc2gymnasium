@@ -38,6 +38,12 @@ If you'd like to test this out, simply run the following:
 python test.py
 ```
 
+## Notes:
+
+I've mostly designed this for my own experiments, but feel free to use this if it applies to your work!
+
+I plan to extend this to work with DeepMind Control's `manipulation` tasks, which can be found [here](https://github.com/google-deepmind/dm_control/tree/main/dm_control/manipulation)
+
 ## References
 
 This work is largely inspired by the following repos:
