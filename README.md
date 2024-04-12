@@ -1,6 +1,6 @@
 # dmc2gymnasium
 
-This is a lightweight wrapper around the DeepMind Control Suite and DeepMind Robot Manipulation Tasks that provides the standard Farama Gymnasium interface to users. 
+This is a lightweight wrapper around the **DeepMind Control Suite** and **DeepMind Robot Manipulation Tasks**, and provides the standard Farama Gymnasium API interface to users. 
 
 Farama Gymnasium is the continuation of OpenAI Gym, and this repository will provide users with a simple, up-to-date, and easy-to-install package for their DM Control Suite experiments.
 
