@@ -46,9 +46,11 @@ https://github.com/jonzamora/dmc2gymnasium/assets/50164418/7a6dead7-6b09-4ef4-8a
 
 I've mostly designed this for my own experiments, but feel free to use this if it applies to your work!
 
+If you have a feature request, or encounter any problems, please make an Issue [here](https://github.com/jonzamora/dmc2gymnasium/issues) and i'm happy to discuss further.
+
 ## References
 
-This work is largely inspired by the following repos:
+This work is **largely** inspired by the following repos:
 
 - imgeorgiev/dmc2gymnasium [[Link](https://github.com/imgeorgiev/dmc2gymnasium)]
 - denisyarats/dmc2gym [[Link](https://github.com/denisyarats/dmc2gym)]
